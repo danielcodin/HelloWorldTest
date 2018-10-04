@@ -10,4 +10,4 @@ addons:
       secure: 5367f0121b7d30d4127458f1192356d2682a5809 # encrypted value of your token
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
-  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=danielcodin_HelloWorldTest   -Dsonar.organization=danielcodin-github   -Dsonar.host.url=https://sonarcloud.io   -Dsonar.login=5367f0121b7d30d4127458f1192356d2682a5809
