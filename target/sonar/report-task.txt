@@ -1,0 +1,7 @@
+organization=danielcodin-github
+projectKey=danielcodin_HelloWorldTest
+serverUrl=https://sonarcloud.io
+serverVersion=7.4.0.17063
+dashboardUrl=https://sonarcloud.io/dashboard?id=danielcodin_HelloWorldTest
+ceTaskId=AWY8yxyN-o61MP5s1VDD
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWY8yxyN-o61MP5s1VDD
